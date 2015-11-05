@@ -1,0 +1,310 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:focusable="false"
+    android:layoutMode="opticalBounds"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Resto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Medalion Beef"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/medmus" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:src="@drawable/unnamed" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/plus"
+        android:layout_alignTop="@+id/imageView2"
+        android:text="Sepagetti Chili"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:src="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:src="@drawable/chickencordonbleu" />
+
+    <Button
+        android:id="@+id/negatif3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/negatif2"
+        android:layout_alignTop="@+id/plus3"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/Daftar1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignRight="@+id/negatif"
+        android:layout_alignTop="@+id/textView1"
+        android:text="Daftar"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textAngka2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/negatif2"
+        android:layout_toLeftOf="@+id/negatif2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Angkaa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/plus2"
+        android:layout_alignTop="@+id/imageView4"
+        android:text="Chicken Cordonbleu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Angkaa2"
+        android:layout_below="@+id/Angkaa2"
+        android:text="Rp 25.000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Angkaa3"
+        android:layout_below="@+id/Angkaa3"
+        android:text="Rp 25.000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textAngka"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignRight="@+id/Dpesanan2"
+        android:text="                                   "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/plus1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textAngka1"
+        android:layout_alignBottom="@+id/textAngka1"
+        android:layout_alignLeft="@+id/Angkaa1"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/Back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Daftar1"
+        android:text="Back"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Pesan1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/textAngka1"
+        android:layout_alignLeft="@+id/Pesan"
+        android:text="Pesan"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/Pesan3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/negatif3"
+        android:layout_alignRight="@+id/Pesan2"
+        android:text="Pesan"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textAngka3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/negatif3"
+        android:layout_toLeftOf="@+id/negatif3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/plus2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/TextView03"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/plus3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/TextView05"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/Dpesanan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="Rp 35.000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/plus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textAngka"
+        android:layout_alignBottom="@+id/textAngka"
+        android:layout_alignLeft="@+id/Dpesanan2"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/negatif"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textAngka"
+        android:layout_alignBottom="@+id/textAngka"
+        android:layout_alignRight="@+id/textView3"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/Pesan"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/negatif"
+        android:layout_alignBottom="@+id/negatif"
+        android:layout_alignLeft="@+id/Back"
+        android:text="Pesan"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/negatif1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignTop="@+id/Pesan1"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/Angkaa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignTop="@+id/imageView3"
+        android:text="Tuna Roll"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Angkaa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="Rp 20.000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/negatif2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/negatif1"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/Pesan2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/Pesan1"
+        android:layout_alignTop="@+id/negatif2"
+        android:text="Pesan"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textAngka1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignRight="@+id/Angkaa1"
+        android:textSize="24sp" />
+
+</RelativeLayout>
